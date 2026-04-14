@@ -4,7 +4,7 @@ Game.registerMod("AutoClicker", {
 
         this.interval = setInterval(() => {
             Game.ClickCookie();
-        }, 20);
+        }, 5);
 
         Game.Notify(
             "AutoClicker loaded",
