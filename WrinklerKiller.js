@@ -47,7 +47,7 @@ Game.registerMod("WrinklerKiller", {
         Game.Notify(
             "Wrinkler Killer loaded",
             `Threshold: ${this.THRESHOLD}`,
-            undefined,
+            [31, 32],
             true,
             3
         );
